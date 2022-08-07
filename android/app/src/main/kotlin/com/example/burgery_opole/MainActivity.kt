@@ -1,4 +1,4 @@
-package com.example.burgery_opole
+package com.stanislawszewerda.burgery_opole
 
 import io.flutter.embedding.android.FlutterActivity
 

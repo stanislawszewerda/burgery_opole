@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>909327713940-l1lq2bui1c3sgfl997i9q356u7j668uk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.909327713940-l1lq2bui1c3sgfl997i9q356u7j668uk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA6xzCJA4paW4F5As6SzjyBTTro33EFEKE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>909327713940</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.stanislawszewerda.burgeryOpole</string>
+	<key>PROJECT_ID</key>
+	<string>burgery-opole</string>
+	<key>STORAGE_BUCKET</key>
+	<string>burgery-opole.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:909327713940:ios:4cc8e5f48e8b0d218fd681</string>
+</dict>
+</plist>
