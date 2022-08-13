@@ -13,6 +13,7 @@ class AddOpinionPageContent extends StatefulWidget {
 class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
   var restaurantName = '';
   var burgerName = '';
+  var rating = 3.0;
 
   @override
   Widget build(BuildContext context) {
@@ -42,6 +43,25 @@ class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
         ),
         const SizedBox(
           height: 20,
+        ),
+        Slider(
+          onChanged: (newValue) {
+            setState(() {
+              rating = newValue;
+            });
+            print(rating.toString());
+          },
+          value: rating,
+          min: 1.0,
+          max: 6.0,
+          divisions: 10,
+          label: rating.toString(),
+        ),
+        Text(
+          rating.toString(),
+        ),
+        const SizedBox(
+          height: 50,
         ),
         ElevatedButton(
             onPressed: () {
