@@ -1,4 +1,4 @@
-import 'package:burgery_opole/App/Home/restaurants/cubit/restaurants_cubit.dart';
+import 'package:burgery_opole/App/features/Home/restaurants/cubit/restaurants_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

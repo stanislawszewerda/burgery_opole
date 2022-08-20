@@ -1,5 +1,5 @@
-import 'package:burgery_opole/App/Home/home_page.dart';
-import 'package:burgery_opole/App/Login/login_page.dart';
+import 'package:burgery_opole/App/features/Home/home_page.dart';
+import 'package:burgery_opole/App/features/Login/login_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';

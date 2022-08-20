@@ -1,8 +1,8 @@
 //import 'dart:html';
 
-import 'package:burgery_opole/App/Home/add_opinion/add_opinion_page_content.dart';
-import 'package:burgery_opole/App/Home/my_account/my_account_page_content.dart';
-import 'package:burgery_opole/App/Home/restaurants/restaurants_page_content.dart';
+import 'package:burgery_opole/App/features/Home/add_opinion/add_opinion_page_content.dart';
+import 'package:burgery_opole/App/features/Home/my_account/my_account_page_content.dart';
+import 'package:burgery_opole/App/features/Home/restaurants/restaurants_page_content.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
