@@ -1,5 +1,7 @@
+import 'package:burgery_opole/App/cubit/root_cubit.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class MyAccountPageContent extends StatelessWidget {
   const MyAccountPageContent({
@@ -21,7 +23,7 @@ class MyAccountPageContent extends StatelessWidget {
           ),
           ElevatedButton(
               onPressed: () {
-                FirebaseAuth.instance.signOut();
+                context.read<RootCubit>().singOut();
               },
               child: const Text('Wyloguj'))
         ],
